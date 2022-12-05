@@ -1,4 +1,4 @@
-@startuml
+@startuml name="Hello Users"
 
 participant UserA
 participant UserB
