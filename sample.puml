@@ -1,7 +1,7 @@
 @startuml name="Hello Users"
 
-participant UserA
-participant UserB
+participant UserA #Red
+participant UserB #Green
 
 UserA -> UserB: Hello
 UserB --> UserA: Hello Hello
@@ -14,6 +14,7 @@ else
 UserB --> UserA: I am not doing great
 UserA -> UserB: I hope you feel better.
 end
+
 
 
 
