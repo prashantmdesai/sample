@@ -13,8 +13,9 @@ UserA -> UserB: The weather is nice today
 else
 UserB --> UserA: I am not doing great
 UserA -> UserB: I hope you feel better.
-
 end
+
+
 
 @enduml
 
