@@ -1,0 +1,20 @@
+@startuml
+
+participant UserA
+participant UserB
+
+UserA -> UserB: Hello
+UserB --> UserA: Hello Hello
+UserA -> UserB: How are you
+
+alt
+UserB --> UserA: I am doing great
+UserA -> UserB: The weather is nice today
+else
+UserB --> UserA: I am not doing great
+UserA -> UserB: I hope you feel better.
+
+end
+
+@enduml
+
